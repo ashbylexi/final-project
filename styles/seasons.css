@@ -1,0 +1,143 @@
+body {
+  max-width: 800px;
+  margin: auto;
+}
+header{
+  background: #2E4F56;
+  padding: .5rem;
+  text-align: center;
+  margin: 2rem 0rem;
+  color: #fff;
+}
+footer {
+  text-align: center;
+  background: #2E4F56;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+a:link {
+  color: #DCFCD5;
+}
+a:visited {
+  color: #B9E6B8;
+}
+a:hover {
+  color: #CAFDCF;
+}
+.button {
+  border-radius: 10px;
+  background-color: #061F59;
+  border: none;
+  color: #fff;
+  padding: 1.5rem;
+  margin: .5rem 6rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7rem;
+  font-family: "aileron", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.button:hover {
+  background-color: #4A69FF;
+}
+.button:active {
+  background-color: #9457FF;
+}
+h1 {
+  font-family: "reklame-script", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 1.5rem;
+  margin-top: 2.5rem;
+}
+p {
+  font-family: "aileron", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom:5rem;
+  max-width: 600px;
+  margin: auto;
+}
+.info {
+  text-align: center;
+}
+.box {
+  background: #fff;
+  padding: 2rem 0rem;
+  margin: 0 6rem;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  column-count: 2;
+  column-rule-width: 1px;
+  column-gap: 4rem;
+  font-size: 1.5rem;
+  font-family: "aileron", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+.title {
+  text-align:center;
+  font-family: "reklame-script", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  padding: 1rem 0
+}
+h3 {
+  text-align:center;
+  font-family: "aileron", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.2rem;
+}
+/* current step: need to flexbox the text for fruit and veg and turn the words sideways */
+
+@media screen and (max-width: 598px) {
+  h1 {
+    line-height: 3.3rem;
+  }
+  header {
+    margin: 0;
+    padding: .1rem 1rem 1rem 1rem;
+  }
+  #buttons {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  ul {
+    column-count: 1;
+    font-size: 130%;
+    text-align: left;
+  }
+  h2 {
+    padding: .5rem 2rem;
+    font-size: 110%;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 220%;
+    line-height: .1rem;
+  }
+  .info {
+    margin: 0rem;
+  }
+  .box {
+    margin: 0;
+  }
+}
